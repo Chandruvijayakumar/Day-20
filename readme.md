@@ -17,6 +17,7 @@ This project is a GIF API that allows users to access and retrieve GIFs based on
 
 - Node.js installed
 - API key from [GIPHY](https://api.giphy.com/)
+- Netlify (https://giphyrepo.netlify.app/)
 
 ### Installation
 
