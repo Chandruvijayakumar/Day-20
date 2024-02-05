@@ -1,0 +1,124 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Merienda;
+    background-color: #f2f2f2;
+}
+.h1{
+    font-size: large!important;
+    text-align: center;
+    color: rgb(114, 8, 8)!important;
+    text-shadow: rgb(19, 20, 18) 1px 2px 3px ,rgb(20, 20, 19) 1px 2px 3px;
+    font-weight: 900;
+}
+#submit-btn{
+    border-radius: 0.5em;
+    box-shadow: #141413 2px 2px 2px 2px;
+    color: #2b304d;
+    text-shadow: #a4a44e 2px 2px 3px;
+    font-weight: 900;
+}
+#submit-btn:hover {
+    color: #121525;
+    text-shadow: #9a9da4 2px 2px 1px;
+}
+#search-box{
+    border-radius: 0.5em;
+    box-shadow: #141413 2px 2px 2px 2px;
+    color: #2b304d;
+    text-shadow: #a4a44e 2px 2px 3px;
+    font-weight: 900;
+}
+#search:hover {
+    color: #121525;
+    text-shadow: #9a9da4 2px 2px 1px;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #c3c7bd;
+    color: #151d2f;
+    border-radius: 0.5em;
+    font-weight: 900;
+}
+button:hover{
+    color: #121525;
+    text-shadow: #9a9da4 2px 2px 1px;
+}
+.search-container{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap:  1rem;
+    width: 100%;
+    max-width: 50em;
+    margin: 1em auto;
+    padding: 0.5em;
+}
+.search-container input{
+    padding: 1em;
+    border-radius: 0.5em;
+    font-weight: 400;
+    color: aqua;
+    box-shadow: #141515 2px 3px 4px 1px;
+}
+.loader{
+    display: none;
+    height: 15em;
+    width: 15em;
+    border: 3.5em solid #121525;
+    border-radius: 50%;
+    border-top-color: #87fd01;
+    border-bottom-color: #b2f104;
+    border-left-color: #000000;
+    border-right-color: #000000;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    animation: spin 2s infinite;
+background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+.container_G{
+    background-color:#c8a695 ;
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1.5em;
+    border-radius: 1.5em;
+    box-shadow: #181818 5px 5px 5px 5px ;
+    
+
+}
+.container_G img {
+    width: 100%;
+}
+.container_G button {
+    margin-top: 1em;
+    padding: 1em 0;
+    box-shadow: #141413 1px 2px 1px 3px;
+    border-radius: 1em;
+}
+@keyframes spin {
+    100%{
+        transform: translate(-50%,-50%)rotate(360deg);
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .wrapper{
+        grid-template-columns: repeat(2, 1fr);    
+}
+    .container{
+          font-size: 0.7em;
+}
+}
+@media screen and (max-width:576px ){
+    .wrapper{grid-template-columns: 1fr
+}
+    
+}
