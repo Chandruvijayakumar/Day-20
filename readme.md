@@ -23,4 +23,5 @@ This project is a GIF API that allows users to access and retrieve GIFs based on
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/gif-api-project.git
+   git clone https://github.com/Chandruvijayakumar/Day-20/blob/main/readme.md
+
